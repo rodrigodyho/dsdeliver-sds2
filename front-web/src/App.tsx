@@ -1,13 +1,13 @@
 import './App.css';
+import Navbar from './Navbar';
 
-function App() {
-  return (
-    <div>
-      
-      <h1>Hello SDS2</h1>
-
-    </div>
-  );
+function App () {
+    return (
+      <div>
+        <Navbar />
+      </div>
+    );
 }
+
 
 export default App;
